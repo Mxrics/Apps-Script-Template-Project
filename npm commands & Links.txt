@@ -1,0 +1,5 @@
+npm install @google/clasp -g
+
+npm install --save @types/google-apps-script
+
+Github Template Project: https://github.com/Mxrics/ClaspTemplateProject.git
