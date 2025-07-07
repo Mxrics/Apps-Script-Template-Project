@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "module": "none",
+    "noEmitOnError": true,
+    "outDir": "",
+    "strict": false,
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
