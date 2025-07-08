@@ -2,15 +2,13 @@
   "compilerOptions": {
     "target": "ES2020",
     "lib": ["ES2020"],
-    "module": "none",
-    "noEmitOnError": true,
-    "outDir": "",
-    "strict": false,
+    "strict": true,
     "allowJs": true,
     "checkJs": true,
-    "esModuleInterop": false,
-    "skipLibCheck": true
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["google-apps-script"]
   },
   "include": ["src/**/*.js"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules"]
 }
