@@ -48,7 +48,7 @@ This template provides a setup for developing Google Apps Script projects using 
 
 ### 5. Use `.claspignore` to exclude files/folders from `clasp push`.
 - this file is parsed with Anymatch
-- use syntax like: **/node_modules/**
+- use syntax like: \*\*/node_modules/\*\*
 - it is not needed if you define the "rootDir" in `.clasp.json`
 
 ---
