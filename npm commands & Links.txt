@@ -1,5 +1,7 @@
 npm install @google/clasp -g
 
-npm install --save @types/google-apps-script
+npm install --save-dev @types/google-apps-script
+
+npm install gas-local --save-dev
 
 Github Template Project: https://github.com/Mxrics/ClaspTemplateProject.git

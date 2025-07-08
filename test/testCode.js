@@ -1,7 +1,9 @@
 function testFunction() {
     try {
-        myFunction()
+        globalThis.myFunction()
     } catch(e) {
-        console.error(e.stack)
+        throw new Error(e.stack)
     }
 }
+
+globalThis.testFunction = testFunction
